@@ -1,0 +1,30 @@
+{
+  "name": "modules_webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server dist",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodaprog/modules_webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nodaprog/modules_webpack/issues"
+  },
+  "homepage": "https://github.com/nodaprog/modules_webpack#readme",
+  "devDependencies": {
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "http-server": "^14.1.1",
+    "mini-css-extract-plugin": "^2.6.1",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
